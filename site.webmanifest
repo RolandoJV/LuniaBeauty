@@ -1,12 +1,12 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Lunia",
+  "name": "Lunia Beauty · Masajes y bienestar",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
-  "start_url": "/?utm_source=homescreen",
-  "background_color": "#fafafa",
-  "theme_color": "#fafafa"
+  "start_url": "./?utm_source=homescreen",
+  "background_color": "#FAF6FC",
+  "theme_color": "#7C529C"
 }

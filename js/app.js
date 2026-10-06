@@ -7,10 +7,9 @@ import { TESTIMONIOS } from "./testimonios.js";
  * ============================================================
  */
 const CONFIG = {
-  numeroWhatsApp: "5356395148",     // TODO: formato internacional, solo números, sin "+"
-  instagramUrl: "https://instagram.com/usuario",   // TODO
-  facebookUrl: "https://facebook.com/usuario",     // TODO (si no aplica, deja el enlace vacío "")
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=DIRECCION_AQUI", // TODO
+  numeroWhatsApp: "5356395148",     // formato internacional, solo números, sin "+"
+  instagramUrl: "https://instagram.com/lunia_beauty",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+Santiago+de+Cuba",
   mensajeReservaRapida: "Hola, quisiera reservar un masaje."
 };
 
@@ -33,13 +32,6 @@ function aplicarConfig() {
 
   document.getElementById("linkMaps").href = CONFIG.mapsUrl;
   document.getElementById("linkInstagram").href = CONFIG.instagramUrl;
-
-  const linkFacebook = document.getElementById("linkFacebook");
-  if (CONFIG.facebookUrl) {
-    linkFacebook.href = CONFIG.facebookUrl;
-  } else {
-    linkFacebook.style.display = "none";
-  }
 }
 
 /**

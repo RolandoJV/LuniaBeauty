@@ -11,7 +11,7 @@ export const TESTIMONIOS = [
     autor: "Cliente habitual"
   },
   {
-    texto: "El masaje con piedras calientes es otro nivel. Ya lo pido siempre que puedo.",
+    texto: "Desde que me di el masaje me he sentido super liviana en estos dias",
     autor: "Cliente"
   },
   {
